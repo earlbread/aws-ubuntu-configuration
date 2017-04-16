@@ -20,7 +20,7 @@ Download and run [setup script][].
 
     wget https://raw.githubusercontent.com/earlbread/aws-ubuntu-configuration/master/config_server.sh
     chmod +x ./config_server.sh
-    ./config_server.sh
+    sudo ./config_server.sh
 
 [setup script]: https://github.com/earlbread/aws-ubuntu-configuration/blob/master/config_server.sh
 
