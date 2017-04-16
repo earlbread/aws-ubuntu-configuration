@@ -22,6 +22,8 @@ Download and run [setup script][].
     chmod +x ./config_server.sh
     sudo ./config_server.sh
 
+This script changes ssh port to 2200, you need to add inbound rule to AWS security group.
+
 [setup script]: https://github.com/earlbread/aws-ubuntu-configuration/blob/master/config_server.sh
 
 Before install other softwares, upgrade softwares currently installed.
